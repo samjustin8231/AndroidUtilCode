@@ -1,4 +1,4 @@
-package com.blankj.androidutilcode.feature.customerview;
+package com.blankj.androidutilcode.feature.customerview.olympicrings;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,16 +7,14 @@ import android.view.View;
 
 import com.blankj.androidutilcode.R;
 import com.blankj.androidutilcode.base.BaseBackActivity;
-import com.blankj.androidutilcode.feature.customerview.olympicrings.OlympicRingsActivity;
 
 /**
  * Created by sam on 2018/2/2.
  */
 
-public class CustomerViewActivity extends BaseBackActivity {
-
+public class OlympicRingsActivity extends BaseBackActivity {
     public static void start(Context context) {
-        Intent starter = new Intent(context, CustomerViewActivity.class);
+        Intent starter = new Intent(context, OlympicRingsActivity.class);
         context.startActivity(starter);
     }
 
@@ -27,12 +25,13 @@ public class CustomerViewActivity extends BaseBackActivity {
 
     @Override
     public int bindLayout() {
-        return R.layout.activity_util_custom_view;
+        return R.layout.activity_olympic_rings;
     }
 
     @Override
     public void initView(Bundle savedInstanceState, View view) {
         getToolBar().setTitle(getString(R.string.customer_util));
+
     }
 
     @Override
@@ -45,7 +44,4 @@ public class CustomerViewActivity extends BaseBackActivity {
 
     }
 
-    public void olympicRingsClick(View view) {
-        OlympicRingsActivity.start(this);
-    }
 }
