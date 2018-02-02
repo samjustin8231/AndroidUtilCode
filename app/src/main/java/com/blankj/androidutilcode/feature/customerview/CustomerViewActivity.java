@@ -8,6 +8,7 @@ import android.view.View;
 import com.blankj.androidutilcode.R;
 import com.blankj.androidutilcode.base.BaseBackActivity;
 import com.blankj.androidutilcode.feature.customerview.olympicrings.OlympicRingsActivity;
+import com.blankj.androidutilcode.feature.customerview.randomtextview.MyRandomTextViewActivity;
 
 /**
  * Created by sam on 2018/2/2.
@@ -47,5 +48,9 @@ public class CustomerViewActivity extends BaseBackActivity {
 
     public void olympicRingsClick(View view) {
         OlympicRingsActivity.start(this);
+    }
+
+    public void randomTextViewClick(View view) {
+        MyRandomTextViewActivity.start(this);
     }
 }

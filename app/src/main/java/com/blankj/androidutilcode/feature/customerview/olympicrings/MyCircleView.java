@@ -18,18 +18,16 @@ public class MyCircleView extends View{
         super(context);
     }
 
-    public MyCircleView(Context context, @Nullable AttributeSet attrs) {
+    public MyCircleView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public MyCircleView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public MyCircleView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
-//        super.onDraw(canvas);
-
         //定义一个默认的画笔
         Paint paint = new Paint();
         //绘制画布为白色

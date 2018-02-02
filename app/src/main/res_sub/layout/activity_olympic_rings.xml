@@ -13,7 +13,13 @@
         android:layout_height="wrap_content" />
 
     <com.blankj.androidutilcode.feature.customerview.olympicrings.MyCircleView
+        android:background="@color/rainbow_green"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="奥林匹克五环"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
 </LinearLayout>

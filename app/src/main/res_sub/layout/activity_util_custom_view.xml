@@ -23,4 +23,10 @@
         android:onClick="olympicRingsClick"
         android:text="@string/demo_olympic_rings" />
 
+    <Button
+        style="@style/WideBtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="randomTextViewClick"
+        android:text="random textview" />
 </LinearLayout>

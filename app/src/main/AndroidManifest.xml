@@ -200,6 +200,9 @@
         <activity
             android:name=".feature.customerview.olympicrings.OlympicRingsActivity"
             android:launchMode="singleTop" />
+        <activity
+            android:name=".feature.customerview.randomtextview.MyRandomTextViewActivity"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>
