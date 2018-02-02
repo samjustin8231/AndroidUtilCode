@@ -67,6 +67,13 @@
                 android:onClick="subUtilClick"
                 android:text="@string/sub_util" />
 
+            <Button
+                style="@style/WideBtnStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="customerViewUtilClick"
+                android:text="@string/customer_util" />
+
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.design.widget.CoordinatorLayout>

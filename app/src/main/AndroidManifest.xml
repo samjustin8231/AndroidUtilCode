@@ -79,6 +79,9 @@
             android:name=".feature.core.activity.SubActivityActivity"
             android:launchMode="singleTop" />
         <activity
+            android:name=".feature.customerview.CustomerViewActivity"
+            android:launchMode="singleTop" />
+        <activity
             android:name=".feature.core.app.AppActivity"
             android:launchMode="singleTop" />
         <activity

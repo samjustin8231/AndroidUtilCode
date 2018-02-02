@@ -9,6 +9,7 @@ import android.view.View;
 
 import com.blankj.androidutilcode.base.BaseDrawerActivity;
 import com.blankj.androidutilcode.feature.core.CoreUtilActivity;
+import com.blankj.androidutilcode.feature.customerview.CustomerViewActivity;
 import com.blankj.androidutilcode.feature.sub.SubUtilActivity;
 import com.blankj.utilcode.util.BarUtils;
 
@@ -67,5 +68,9 @@ public class MainActivity extends BaseDrawerActivity {
 
     public void subUtilClick(View view) {
         SubUtilActivity.start(this);
+    }
+
+    public void customerViewUtilClick(View view) {
+        CustomerViewActivity.start(this);
     }
 }

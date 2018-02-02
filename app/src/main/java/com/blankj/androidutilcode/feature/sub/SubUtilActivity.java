@@ -15,7 +15,7 @@ import com.blankj.androidutilcode.feature.sub.pinyin.PinyinActivity;
  *     author: Blankj
  *     blog  : http://blankj.com
  *     time  : 2016/09/29
- *     desc  : MainActivity
+ *     desc  : Sub Util Activity
  * </pre>
  */
 public class SubUtilActivity extends BaseBackActivity {
