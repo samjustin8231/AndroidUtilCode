@@ -4,6 +4,7 @@
     <string name="core_util">Core Util</string>
     <string name="sub_util">Sub Util</string>
     <string name="customer_util">Custom Views Util</string>
+    <string name="animation_util">Animation Util</string>
     <string name="olympic_rings_title">Olympic rings</string>
 
     <string name="author">Blankj</string>

@@ -209,6 +209,14 @@
         <activity
             android:name=".feature.customerview.customertitlebar.CustomTitleBarActivity"
             android:launchMode="singleTop" />
+
+        <!--animation-->
+        <activity
+            android:name=".feature.animation.AnimationActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".feature.animation.BasePropertyAnimation.BasePropertyAnimationActivity"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>

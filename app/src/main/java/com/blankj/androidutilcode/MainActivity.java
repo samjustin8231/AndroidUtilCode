@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.blankj.androidutilcode.base.BaseDrawerActivity;
+import com.blankj.androidutilcode.feature.animation.AnimationActivity;
 import com.blankj.androidutilcode.feature.core.CoreUtilActivity;
 import com.blankj.androidutilcode.feature.customerview.CustomerViewActivity;
 import com.blankj.androidutilcode.feature.sub.SubUtilActivity;
@@ -72,5 +73,9 @@ public class MainActivity extends BaseDrawerActivity {
 
     public void customerViewUtilClick(View view) {
         CustomerViewActivity.start(this);
+    }
+
+    public void animationUtilClick(View view) {
+        AnimationActivity.start(this);
     }
 }
