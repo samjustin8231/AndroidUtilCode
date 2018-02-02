@@ -29,4 +29,11 @@
         android:layout_height="wrap_content"
         android:onClick="randomTextViewClick"
         android:text="random textview" />
+
+    <Button
+        style="@style/WideBtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="circleViewClick"
+        android:text="自动画圆环" />
 </LinearLayout>

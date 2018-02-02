@@ -203,6 +203,9 @@
         <activity
             android:name=".feature.customerview.randomtextview.MyRandomTextViewActivity"
             android:launchMode="singleTop" />
+        <activity
+            android:name=".feature.customerview.CircleView.CircleViewActivity"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>

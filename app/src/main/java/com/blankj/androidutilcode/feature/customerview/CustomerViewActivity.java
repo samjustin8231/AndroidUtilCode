@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.blankj.androidutilcode.R;
 import com.blankj.androidutilcode.base.BaseBackActivity;
+import com.blankj.androidutilcode.feature.customerview.CircleView.CircleViewActivity;
 import com.blankj.androidutilcode.feature.customerview.olympicrings.OlympicRingsActivity;
 import com.blankj.androidutilcode.feature.customerview.randomtextview.MyRandomTextViewActivity;
 
@@ -52,5 +53,9 @@ public class CustomerViewActivity extends BaseBackActivity {
 
     public void randomTextViewClick(View view) {
         MyRandomTextViewActivity.start(this);
+    }
+
+    public void circleViewClick(View view) {
+        CircleViewActivity.start(this);
     }
 }
