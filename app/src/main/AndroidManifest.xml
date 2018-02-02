@@ -206,6 +206,9 @@
         <activity
             android:name=".feature.customerview.CircleView.CircleViewActivity"
             android:launchMode="singleTop" />
+        <activity
+            android:name=".feature.customerview.customertitlebar.CustomTitleBarActivity"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>

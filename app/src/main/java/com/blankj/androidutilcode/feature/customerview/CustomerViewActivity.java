@@ -8,6 +8,7 @@ import android.view.View;
 import com.blankj.androidutilcode.R;
 import com.blankj.androidutilcode.base.BaseBackActivity;
 import com.blankj.androidutilcode.feature.customerview.CircleView.CircleViewActivity;
+import com.blankj.androidutilcode.feature.customerview.customertitlebar.CustomTitleBarActivity;
 import com.blankj.androidutilcode.feature.customerview.olympicrings.OlympicRingsActivity;
 import com.blankj.androidutilcode.feature.customerview.randomtextview.MyRandomTextViewActivity;
 
@@ -57,5 +58,9 @@ public class CustomerViewActivity extends BaseBackActivity {
 
     public void circleViewClick(View view) {
         CircleViewActivity.start(this);
+    }
+
+    public void customTitleBarClick(View view) {
+        CustomTitleBarActivity.start(this);
     }
 }

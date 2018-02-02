@@ -36,4 +36,11 @@
         android:layout_height="wrap_content"
         android:onClick="circleViewClick"
         android:text="自动画圆环" />
+
+    <Button
+        style="@style/WideBtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="customTitleBarClick"
+        android:text="自定义titlebar" />
 </LinearLayout>
